@@ -1,0 +1,12 @@
+@import "../_snowpack/pkg/tailwindcss/dist/base.css";
+@import "../_snowpack/pkg/tailwindcss/dist/components.css";
+@import "../_snowpack/pkg/tailwindcss/dist/utilities.css";
+
+.add, .delete{
+    width: 150px;
+    transition: width 0.7s;
+}
+
+.add:hover, .delete:hover{
+    width: 180px;
+}
